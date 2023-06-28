@@ -1,0 +1,75 @@
+body {
+  background: linear-gradient(450deg, rgb(182, 236, 238), rgb(116, 116, 119));
+}
+
+header h1 {
+  color: rgb(21, 80, 136);
+}
+
+#hyphen {
+  color: rgb(252, 205, 88);
+}
+@media (max-width: 768px) {
+  html {
+    width: 750px;
+  }
+  body {
+    width: 750px;
+  }
+
+  main {
+    width: 720px;
+  }
+
+  main ul {
+    width: 720px;
+    margin-right: 6px;
+    margin-left: 8px;
+  }
+
+  main li {
+    width: 700px;
+    margin-left: 10px;
+  }
+  body {
+    width: 100%;
+  }
+  footer {
+    width: 750px;
+  }
+}
+
+@media (max-width: 480px) {
+  html {
+    width: 100%;
+  }
+
+  main {
+    width: 390px;
+  }
+
+  main ul {
+    width: 320px;
+  }
+  main li {
+    width: 320px;
+  }
+
+  footer {
+    width: 100%;
+    padding-bottom: 0;
+  }
+  footer ul {
+    width: 350px;
+    height: 50px;
+    padding-left: 30px;
+  }
+  footer li {
+    margin: 0;
+    height: 50px;
+  }
+  footer img {
+    width: 30px;
+    height: 30px;
+  }
+}

@@ -1,0 +1,232 @@
+#hero {
+  height: 50rem;
+  background-image: url("/images/places/boat.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#hero-content {
+  width: 50%;
+  background-color: rgba(51, 47, 47, 0.8);
+  box-shadow: 2px 4px 8px rgb(68, 67, 67);
+  border-radius: 8px;
+  text-align: center;
+  padding: 3rem 0;
+  margin: 0 auto;
+  position: relative;
+  top: 12.5rem;
+}
+
+#hero-content h1 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 3rem;
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+}
+
+#hero-content p {
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+
+#hero-content a {
+  text-decoration: none;
+  background-color: rgb(255, 217, 0);
+  padding: 0.6rem 1.5rem;
+  color: black;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-radius: 8px;
+  box-shadow: 2px 4px 8px rgb(68, 67, 67);
+}
+
+#hero-content a:hover {
+  background-color: rgb(250, 229, 114);
+}
+
+#highlights {
+  padding: 1.5rem;
+  background: linear-gradient(180deg, rgb(221, 219, 206), rgb(127, 154, 183));
+}
+
+#highlights h2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2.5rem;
+  color: rgb(59, 64, 64);
+  margin: 1.5rem 0;
+}
+
+#destinations {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 2.5rem;
+  justify-content: center;
+}
+
+.destinations {
+  margin: 0 70px;
+  text-transform: uppercase;
+}
+
+.destinations p {
+  text-align: center;
+  font-size: 1.5rem;
+  color: rgb(99, 93, 93);
+  margin: 1.2rem 0;
+}
+
+.destinations img {
+  height: 12.5rem;
+  width: 100%;
+  box-shadow: 2px 4px 8px rgb(68, 67, 67);
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.destinations strong {
+  color: rgb(24, 129, 21);
+}
+
+@media (max-width: 768px) {
+  .menu-btn {
+    display: none;
+  }
+
+  header {
+    padding: 1.2rem 1.2rem;
+  }
+
+  #page-logo a {
+    font-size: 2.5rem;
+  }
+
+  #hero {
+    height: 33rem;
+  }
+
+  #hero-content {
+    padding: 2rem 0;
+    top: 8.5rem;
+  }
+
+  #hero-content h1 {
+    font-size: 2rem;
+    padding: 1px;
+  }
+
+  #hero-content p {
+    font-size: 1.3rem;
+    padding: 1px;
+  }
+
+  #destinations {
+    width: 100%;
+  }
+
+  .destinations {
+    margin: 0 30px;
+  }
+
+  .destinations img {
+    height: 150px;
+    width: 100%;
+  }
+
+  .destinations p {
+    font-size: 1.3rem;
+  }
+
+  #side-drawer nav ul {
+    padding-top: 4px;
+  }
+
+  #hero #side-drawer {
+    display: none;
+  }
+
+  footer li {
+    height: 2rem;
+    width: 1rem;
+  }
+
+  footer img {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  #page-logo a {
+    font-size: 2rem;
+  }
+
+  #destinations {
+    width: 100%;
+  }
+  .destinations {
+    margin: 0 6px;
+    margin-right: 15px;
+  }
+  .destinations img {
+    width: 100px;
+    height: 100px;
+    margin: 0 5.95px;
+  }
+
+  #hero {
+    height: 25rem;
+  }
+
+  #hero-content {
+    padding: 2rem 0;
+    top: 8.5rem;
+  }
+
+  #hero-content h1 {
+    font-size: 1.7rem;
+  }
+
+  #hero-content p {
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+    padding: 3px;
+  }
+
+  #hero-content a {
+    font-size: 1rem;
+  }
+
+  #highlights h2 {
+    font-size: 1.5rem;
+  }
+
+  .destinations p {
+    font-size: 1rem;
+  }
+
+  footer {
+    width: 100%;
+    padding-bottom: 0;
+  }
+  footer ul {
+    width: 350px;
+    height: 50px;
+    padding-left: 30px;
+    margin: auto;
+  }
+  footer li {
+    margin: 0 auto;
+    height: 50px;
+    width: 5rem;
+  }
+  footer img {
+    width: 30px;
+    height: 30px;
+  }
+}
